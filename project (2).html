@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Shopping</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div id="navbar">
+        <a id="logo" href="#">Virtual Shopping</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Beauty</a>
+
+        <form action="#">
+            <input type="text" id="search" placeholder="🔍 Search for products">
+        </form>
+
+        <a href="#">Download App</a>
+        <a href="#">My Cart</a>
+        <a href="#">Account</a>
+        <a href="#">Contact Us</a>
+        
+    </div>
+<!-- Carousel Section (Sliding Deals) -->
+<div id="carousel-container">
+    <div class="carousel">
+        <div class="carousel-slide">
+            <div class="deal">
+                <img src="4.jpg" alt="Deal 2">
+                <p>Buy 1 Get 1 Free on T-shirts!</p>
+            </div>
+            <div class="deal">
+                <img src="2.jpg" alt="Deal 1">
+                <p>50% off on all shoes!</p>
+            </div>
+            <div class="deal">
+                <img src="6.jpg" alt="Deal 2">
+                <p>Buy 1 Get 1 Free on T-shirts!</p>
+            </div>
+            <div class="deal">
+                <img src="7.jpg" alt="Deal 2">
+                <p>Buy 1 Get 1 Free on T-shirts!</p>
+            </div>
+            <div class="deal">
+                <img src="5.jpg" alt="Deal 3">
+                <p>30% off on jackets!</p>
+            </div>
+            <div class="deal">
+                <img src="main.jpg" alt="Deal 3">
+                <p>30% off on jackets!</p>
+            </div>
+            <div class="deal">
+                <img src="3.jpg" alt="Deal 2">
+                <p>Buy 1 Get 1 Free on T-shirts!</p>
+            </div>
+            <div class="deal">
+                <img src="4.jpg" alt="Deal 2">
+                <p>Buy 1 Get 1 Free on T-shirts!</p>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel Navigation (optional) -->
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+    <!-- Main Section -->
+    <div class="main-section"></div>
+
+<!-- Women's Fashion Heading -->
+<div class="shopping-section">
+    <h2 class="section-heading">Women's Fashion</h2>
+
+    <div class="boxes-container">
+        <div class="box1 box">
+            <a href="sarees.html">
+            <div class="box-content">
+                <h2>Sarees</h2>
+                <div class="box-image" style="background-image: url('saree.jpg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box2 box">
+            <a href="lehangas.html">
+                <div class="box-content">
+                    <h2>Lehengas</h2>
+                    <div class="box-image" style="background-image: url('lehanga.jpeg');"></div>
+                </div>
+            </a>
+        </div>
+        
+        <div class="box3 box">
+            <a href="kurtis.html">
+            <div class="box-content">
+                <h2>Kurtis</h2>
+                <div class="box-image" style="background-image: url('kurti.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box4 box">
+            <a href="westernwear.html">
+            <div class="box-content">
+                <h2>Western Wear</h2>
+                <div class="box-image" style="background-image: url('western.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+    </div>
+</div>
+
+<!-- Mens-Shopping -->
+<div class="shopping-section">
+    <h2 class="section-heading">Men's Fashion</h2>
+
+    <div class="boxes-container">
+        <div class="box1 box">
+            <a href="shirts.html">
+            <div class="box-content">
+                <h2>Shirts</h2>
+                <div class="box-image" style="background-image: url('shirts.jpeg');"></div>
+            </div>
+            </a>
+        </div>
+
+        <div class="box2 box">
+            <a href="tshirts.html">
+            <div class="box-content">
+                <h2>T-Shirts</h2>
+                <div class="box-image" style="background-image: url('tshirts.jpeg');"></div>
+            </div>
+            </a>
+        </div>
+
+        <div class="box3 box">
+            <a href="jackets.html">
+            <div class="box-content">
+                <h2>Jackets</h2>
+                <div class="box-image" style="background-image: url('jackets.jpeg');"></div>
+            </div>
+            </a>
+        </div>
+
+        <div class="box4 box">
+            <a href="boysethnic.html">
+            <div class="box-content">
+                <h2>Ethnic Wear</h2>
+                <div class="box-image" style="background-image: url('boysethnic.jpeg');"></div>
+            </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Kids Fashion -->
+<div class="shopping-section">
+    <h2 class="section-heading">Kid's Fashion</h2>
+
+    <div class="boxes-container">
+        <div class="box1 box">
+         <a href="frocks.html">
+            <div class="box-content">
+                <h2>Frocks</h2>
+                <div class="box-image" style="background-image: url('frocks.jpeg');"></div>
+            </div>
+            </a>
+        </div>
+
+        <div class="box2 box">
+            <a href="kids.html">
+            <div class="box-content">
+                <h2>Boys sets</h2>
+                <div class="box-image" style="background-image: url('kids tshirt.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box3 box">
+            <a href="kidswestern.html">
+            <div class="box-content">
+                <h2>Girls sets</h2>
+                <div class="box-image" style="background-image: url('kidswestern.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box4 box">
+            <div class="box-content">
+                <a href="ethnicwear.html">
+                <h2>Ethnic Wear</h2>
+                <div class="box-image" style="background-image: url('ethnicwear.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+    </div>
+</div>
+<!-- Accessorie -->
+<div class="shopping-section">
+    <h2 class="section-heading">Accessories</h2>
+
+    <div class="boxes-container">
+        <div class="box1 box">
+            <a href="Watch.html">
+            <div class="box-content">
+                <h2>Watches</h2>
+                <div class="box-image" style="background-image: url('watches.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box2 box">
+            <a href="bags.html">
+            <div class="box-content">
+                <h2>Bags</h2>
+                <div class="box-image" style="background-image: url('bags.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box3 box">
+            <a href="jwellery.html">
+            <div class="box-content">
+                <h2>Jewellery</h2>
+                <div class="box-image" style="background-image: url('jwellery.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box4 box">
+            <a href="hair.html">
+            <div class="box-content">
+                <h2>Hair Accessories</h2>
+                <div class="box-image" style="background-image: url('hair.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+    </div>
+</div>
+
+<!-- footwear -->
+<div class="shopping-section">
+    <h2 class="section-heading">Footwear</h2>
+
+    <div class="boxes-container">
+        <div class="box1 box">
+            <a href="sneakers.html">
+            <div class="box-content">
+                <h2>Sneakers</h2>
+                <div class="box-image" style="background-image: url('sneakers.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box2 box">
+            <a href="sandals.html">
+            <div class="box-content">
+                <h2>Sandals</h2>
+                <div class="box-image" style="background-image: url('sandals.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box3 box">
+            <a href="heels.html">
+            <div class="box-content">
+                <h2>Heels</h2>
+                <div class="box-image" style="background-image: url('heels.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+
+        <div class="box4 box">
+            <a href="shoes.html">
+            <div class="box-content">
+                <h2>Sports shoes</h2>
+                <div class="box-image" style="background-image: url('shoes.jpeg');"></div>
+            </div>
+        </a>
+        </div>
+    </div>
+</div>
+<script>
+    let currentIndex = 0;
+
+    function moveSlide(direction) {
+        const slides = document.querySelector('.carousel-slide');
+        const totalSlides = document.querySelectorAll('.deal').length;
+
+        // Update the index based on direction
+        currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+
+        // Move the carousel
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    // Auto-slide every 10 seconds
+    setInterval(() => {
+        moveSlide(1);
+    }, 2000); // Move 1 slide every 10 seconds
+</script>
+
+</body>
+</html>
+ <!-- Footer -->
+    <!-- <footer id="footer">
+        Made with ❤️ by Virtual Shopping
+    </footer> -->
